@@ -20,6 +20,10 @@
     "watch:all": "run-p serve watch:css watch:js"
   },
   "author": "Ruhollah Hosseini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4quila/starter-project"
+  },
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.0.1",
