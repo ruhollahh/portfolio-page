@@ -1,1 +1,0 @@
-console.log("another-file.js file loaded");console.log("detects.js file loaded");

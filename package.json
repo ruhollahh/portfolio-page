@@ -17,7 +17,7 @@
     "build:all": "npm run build:css && npm run build:js && npm run build:images",
     "watch:css": "onchange 'src/scss/**/*.scss' -- npm run build:css",
     "watch:js": "onchange 'src/js/**/*.js' -- npm run build:js",
-    "watch:all": "run-p build:all serve watch:css watch:js"
+    "watch:all": "run-p serve watch:css watch:js"
   },
   "author": "Ruhollah Hosseini",
   "license": "MIT",
