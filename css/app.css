@@ -1,0 +1,1 @@
+*,*::before,*::after{padding:0;margin:0}.example{display:grid;transition:all 0.5s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background:linear-gradient(to bottom, white, black)}
