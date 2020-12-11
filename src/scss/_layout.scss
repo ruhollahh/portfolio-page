@@ -5,7 +5,7 @@
   justify-content: center;
   flex-wrap: wrap;
   background-image: url("/assets/images/background.jpg");
-  background-color: hsl(6, 63%, 46%);
+  background-color: #803900;
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -56,21 +56,20 @@
   background: #ecf0f1;
   border-radius: 0.2rem;
   padding: 1rem 3rem;
-  color: #d35400;
+  color: #ff7100;
   font-size: 1.7rem;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
   transition: all 100ms ease-in;
-  z-index: 1;
 
   &:hover {
     color: #ecf0f1;
     transform: translateY(-3px);
-    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
   }
 
   &:active {
     transform: translateY(-1px);
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
   }
 
   &:before {
@@ -80,7 +79,7 @@
     top: 0;
     left: 0;
     border-radius: 0.2rem 50% 50% 0.2rem;
-    background-color: #3498db;
+    background-color: #0088b3;
     width: 0;
     height: 100%;
     transition: all 100ms ease-in;
