@@ -1,6 +1,9 @@
-.example {
-  display: grid;
-  transition: all 0.5s;
-  user-select: none;
-  background: linear-gradient(to bottom, white, black);
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(/images/background.jpg);
+  height: 90vh;
 }
