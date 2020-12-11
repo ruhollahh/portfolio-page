@@ -1,7 +1,7 @@
 {
-  "name": "starter-project",
+  "name": "portfolio-page",
   "version": "1.0.0",
-  "description": "project description here.",
+  "description": "Nice and simple portfolio page using Flexbox.",
   "main": "index.js",
   "scripts": {
     "scss": "node-sass --output-style compressed -o css src/scss",
@@ -14,7 +14,7 @@
   "author": "Ruhollah Hosseini",
   "repository": {
     "type": "git",
-    "url": "https://github.com/4quila/starter-project"
+    "url": "https://github.com/4quila/portfolio-page"
   },
   "license": "MIT",
   "devDependencies": {
@@ -25,6 +25,5 @@
     "onchange": "^7.0.2",
     "postcss": "^8.1.2",
     "postcss-cli": "^8.1.0"
-  },
-  "dependencies": {}
+  }
 }
