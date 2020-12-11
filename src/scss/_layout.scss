@@ -9,8 +9,7 @@
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
-  padding: 2.8rem;
-  height: 85vh;
+  padding: 5rem 0;
 
   &__heading {
     margin-top: 5rem;
@@ -59,11 +58,19 @@
   padding: 1rem 3rem;
   color: #d35400;
   font-size: 1.7rem;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
   transition: all 100ms ease-in;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  z-index: 1;
 
   &:hover {
     color: #ecf0f1;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.4);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
   }
 
   &:before {
