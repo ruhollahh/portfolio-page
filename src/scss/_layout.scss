@@ -91,3 +91,52 @@
     border-radius: 0.2rem;
   }
 }
+
+.main {
+  margin: 5rem auto;
+  width: 85%;
+  max-width: 120rem;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+  &__item {
+    padding: 1rem;
+  }
+
+  &__item-image {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio {
+    &__item {
+      flex-basis: 50%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio {
+    &__item {
+      flex-basis: 33.333%;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .portfolio {
+    &__item {
+      flex-basis: 25%;
+    }
+  }
+}
